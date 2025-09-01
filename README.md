@@ -17,10 +17,20 @@ This app lets users create, update, and delete tasks with authentication support
 
 ## 🛠️ Tech Stack  
 
-![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)  
-![Express.js](https://img.shields.io/badge/Express.js-Backend-black?logo=express)  
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)  
-![JWT](https://img.shields.io/badge/JWT-Authentication-blue?logo=jsonwebtokens)  
+<p align="left">
+  <a href="https://nodejs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  </a>
+  <a href="https://expressjs.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  </a>
+  <a href="https://www.mongodb.com/" target="_blank">
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  </a>
+  <a href="https://jwt.io/" target="_blank">
+    <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
@@ -38,56 +48,3 @@ task-manager/
 │── .env                # Environment variables
 │── package.json
 │── README.md
-⚙️ Installation
-Clone the repository
-
-bash
-Copier le code
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
-Install dependencies
-
-bash
-Copier le code
-npm install
-Create a .env file and add:
-
-env
-Copier le code
-PORT=3000
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
-Start the server
-
-bash
-Copier le code
-npm run dev
-📌 API Endpoints
-Auth
-POST /users → Register
-
-POST /users/login → Login
-
-POST /users/logout → Logout
-
-Tasks
-POST /tasks → Create task
-
-GET /tasks → Get all tasks
-
-PATCH /tasks/:id → Update task
-
-DELETE /tasks/:id → Delete task
-
-📸 Screenshots
-(Add a screenshot or GIF of your API in Postman or frontend if you build one)
-
-🚀 Future Improvements
-Add a frontend (React / Next.js)
-
-Add task categories & priorities
-
-Add reminders & notifications
-
-Deploy on Render / Railway
-
